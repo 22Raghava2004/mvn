@@ -55,6 +55,26 @@
                     </execution>
                 </executions>
             </plugin>
+
+                    <!-- Maven JAR Plugin -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-jar-plugin</artifactId>
+                        <version>3.2.0</version>
+                        <configuration>
+                            <!-- Specify the main class to be executed -->
+                            <archive>
+                                <manifestEntries>
+                                    <Main-Class>org.example.Main</Main-Class> <!-- Replace with your main class path
+  -->
+                                </manifestEntries>
+                            </archive>
+                        </configuration>
+                    </plugin>
+
+
+
+
         </plugins>
     </build>
 
