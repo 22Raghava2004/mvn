@@ -102,3 +102,4 @@
 java -jar jenkins.war
 ls -la
 rm -r .jenkins
+git ,maven
