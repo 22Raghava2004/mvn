@@ -95,3 +95,10 @@
   </plugin>
   </plugins>
   </build>
+
+
+
+
+java -jar jenkins.war
+ls -la
+rm -r .jenkins
