@@ -17,7 +17,7 @@
          driver = new ChromeDriver();
         driver.manage().window().maximize();
         Thread.sleep(2000);
-        driver.get("https://22raghava2004.github.io/Devop-maven/"); // "Note: You should use yourGITHUB-URL here...!!!"
+        driver.get("https://22raghava2004.github.io/mvn/"); // "Note: You should use yourGITHUB-URL here...!!!"
          }
 
         @Test
